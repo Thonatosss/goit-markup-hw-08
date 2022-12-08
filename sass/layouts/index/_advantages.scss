@@ -1,61 +1,61 @@
 .advantages-list__title {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    & {
-      margin-bottom: 10px;
-    }
+  @extend %tocenter;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  & {
+    margin-bottom: 10px;
   }
-  
-  .advantages-list {
-    @include toLevel(flex, center, null);
-  }
-  .hidden-title {
-    text-align: center;
-  }
-  .advantages-list__info {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: $secondaryTextColor;
-  }
-  .advantages-info-container {
-    width: 270px;
-  }
-  
-  .adress .advantages {
-    color: $secondaryTextColor;
-    font-size: 14px;
-    line-height: 1.71;
-  
-    letter-spacing: 0.03em;
-  }
-  .advantages-list__item {
-    width: calc((100% - 90px) / 4);
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-  }
-  .hidden-title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  .advantages-list__svg {
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    display: inline-block;
-    @include toLevel(flex, center, center);
-    margin-bottom: 30px;
-  }
-  
-  
+}
+
+// .advantages-list {
+
+// }
+.hidden-title {
+  text-align: center;
+}
+.advantages-list__info {
+  @extend %tocenter;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $secondaryTextColor;
+}
+.advantages-info-container {
+  max-width: 480px;
+}
+
+.adress .advantages {
+  color: $secondaryTextColor;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+// .advantages-list__item {
+//   // width: calc((100% - 90px) / 4);
+//   &:not(:last-child) {
+//     margin-right: 30px;
+//   }
+// }
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages-list__svg {
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: inline-block;
+  @include toLevel(flex, center, center);
+  margin-bottom: 30px;
+}

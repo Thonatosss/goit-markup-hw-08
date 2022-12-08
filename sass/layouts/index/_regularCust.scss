@@ -7,11 +7,12 @@
 }
 .customer-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 .custumer-list__item {
   display: flex;
-  width: calc((100% - 150px) / 6);
+  width: calc((100% - 60px) / 2);
   height: 92px;
 }
 
