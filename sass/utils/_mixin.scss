@@ -1,0 +1,6 @@
+@mixin toLevel($disp, $justfc, $aligni) {
+  display: $disp;
+  justify-content: $justfc;
+  align-items: $aligni;
+    
+}

@@ -1,0 +1,23 @@
+.list-item .poster-title {
+    font-size: 18px;
+    line-height: 2;
+    color: $primaryTextColor;
+  
+    letter-spacing: 0.06em;
+  }
+  
+  .list-item .poster-filter {
+    font-size: 16px;
+    line-height: 1.88;
+    color: $secondaryTextColor;
+    letter-spacing: 0.03em;
+  }
+  .main-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .list-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  

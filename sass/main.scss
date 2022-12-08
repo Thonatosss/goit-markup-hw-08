@@ -1,0 +1,45 @@
+@import './utils/vars';
+@import './utils/pholders';
+@import './utils/hide';
+@import './utils/mixin';
+
+
+
+@import './components/container';
+@import './components/img';
+@import './components/logo';
+@import './components/section';
+@import'./components/modal';
+@import'./components/form';
+@import'./components/navigation';
+@import'./components/adress';
+
+
+@import './base/resets';
+@import './base/common';
+@import './base/header';
+@import './base/footer';
+@import './base/newsletter';
+
+
+
+@import './layouts/index/hero';
+@import './layouts/index/advantages.scss';
+@import './layouts/index/regularCust';
+@import './layouts/index/team';
+@import './layouts/index/about';
+@import'./layouts/portfolio/filters';
+@import'./layouts/portfolio/list';
+@import'./layouts/portfolio/posters';
+@import'./layouts/portfolio/logo'
+
+
+
+
+
+
+
+
+
+
+
