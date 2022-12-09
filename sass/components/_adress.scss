@@ -1,37 +1,29 @@
 .adress .adress__item:not(:last-child) {
-    padding-right: 50px;
-  }
-  .adress {
-    font-style: normal;
-    @media screen and (min-width: 480px) {
-      display: none;
-      
-    }
-    @media screen and(min-width: 768px) {
-      
-        display: block;
-        
-      
-      
-    }
-  }
+  padding-right: 50px;
+}
+.adress {
+  font-style: normal;
+  display: none;
 
-  
-  .adress__link {
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-    &:hover,
-    &:focus {
-      color: $accentColor;
-    }
+  @media screen and(min-width: 768px) {
+    display: block;
   }
-  .adress__link {
-    color: $secondaryTextColor;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1428;
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adress__link {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  &:hover,
+  &:focus {
+    color: $accentColor;
   }
-  
+}
+.adress__link {
+  color: $secondaryTextColor;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

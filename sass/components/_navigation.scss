@@ -1,12 +1,7 @@
-.navigation{
-  @media screen and(min-width: 480px)  {
-    display: none;
-    
-  }
-  @media screen and (min-width: 768px) 
-  {
+.navigation {
+  display: none;
+  @media screen and (min-width: 768px) {
     display: block;
-    
   }
 }
 .navigation-list__item .navigation-list__link,
@@ -54,9 +49,8 @@
   color: $accentColor;
 }
 .navigation-list .navigation-list__item:not(:last-child) {
-    margin-right: 50px;
-  }
+  margin-right: 50px;
+}
 .navigation-list {
-    display: flex;
-  }
-  
+  display: flex;
+}

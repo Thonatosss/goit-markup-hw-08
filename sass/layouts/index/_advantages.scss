@@ -1,5 +1,10 @@
 .advantages-list__title {
-  @extend %tocenter;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -7,14 +12,17 @@
   & {
     margin-bottom: 10px;
   }
+  @media screen and (min-width: 768px) {
+  }
 }
 
 .advantages-list {
-  @media screen and (min-width:768px) {
-  
-    @extend %tocenter;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
-
 }
 .hidden-title {
   text-align: center;
@@ -28,6 +36,9 @@
 }
 .advantages-info-container {
   max-width: 480px;
+  @media screen and (min-width: 768px) {
+    max-width: 353px;
+  }
 }
 
 .adress .advantages {
@@ -37,12 +48,16 @@
 
   letter-spacing: 0.03em;
 }
-// .advantages-list__item {
-//   // width: calc((100% - 90px) / 4);
-//   &:not(:last-child) {
-//     margin-right: 30px;
-//   }
-// }
+.advantages-list__item {
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 60px) / 2);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  
+}
 .hidden-title {
   position: absolute;
   width: 1px;
