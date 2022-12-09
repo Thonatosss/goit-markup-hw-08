@@ -10,6 +10,10 @@
 }
 
 .logo-header {
+  @media screen and (min-width:1200px) {
+    margin-right: 94px;
+    
+  }
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
