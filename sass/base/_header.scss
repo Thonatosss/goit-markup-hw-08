@@ -1,12 +1,15 @@
 .header {
   border-bottom: 1px solid #ececec;
+  position: relative;
 }
 
 
-// .header-flex {
-//   display: flex;
-//   align-items: center;
-// }
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
 
 
 .adress__icon-envelope {
