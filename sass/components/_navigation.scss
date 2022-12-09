@@ -1,3 +1,14 @@
+.navigation{
+  @media screen and(min-width: 480px)  {
+    display: none;
+    
+  }
+  @media screen and (min-width: 768px) 
+  {
+    display: block;
+    
+  }
+}
 .navigation-list__item .navigation-list__link,
 .navigation-list__item .navigation-list__link,
 .navigation-list__item .navigation-list__link {

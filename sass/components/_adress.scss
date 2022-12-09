@@ -3,14 +3,24 @@
   }
   .adress {
     font-style: normal;
+    @media screen and (min-width: 480px) {
+      display: none;
+      
+    }
+    @media screen and(min-width: 768px) {
+      
+        display: block;
+        
+      
+      
+    }
   }
-  .adress {
-    display: flex;
-    margin-left: auto;
-  }
+
+  
   .adress__link {
     display: flex;
     align-items: center;
+    margin-top: 12px;
     &:hover,
     &:focus {
       color: $accentColor;

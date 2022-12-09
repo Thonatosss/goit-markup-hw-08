@@ -9,9 +9,13 @@
   }
 }
 
-// .advantages-list {
+.advantages-list {
+  @media screen and (min-width:768px) {
+  
+    @extend %tocenter;
+  }
 
-// }
+}
 .hidden-title {
   text-align: center;
 }
