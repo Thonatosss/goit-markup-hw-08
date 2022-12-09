@@ -1,0 +1,20 @@
+.menu-button{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border:none;
+   background-color: transparent;
+   &.is-open .icon-close{
+    display: block;
+   }
+    & .icon-close{
+        display: none;
+    }
+    &.is-open .icon-menu{
+        display: none;
+    }
+    
+    
+    
+}
+

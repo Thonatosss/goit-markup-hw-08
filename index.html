@@ -23,11 +23,20 @@
   <body class="">
     <header class="header">
       <div class="container header-flex">
-        <a href="" class="logo links"
+        <a href="" class="logo-header links"
           ><span class="logo__web-text">Web</span
           ><span class="logo__studio-text">Studio</span></a
         >
-        <nav class="navigation">
+        <button type="button" class="menu-button is-open" data-menu-button
+        aria-expanded="false">
+          <svg width="20" height="20" aria-label="Переключач мобільного меню">
+            <use href="./images/Sprite/icons.svg#icon-menu2" class="icon-menu">
+            </use>
+            <use href="./images/Sprite/icons.svg#icon-close" class="icon-close">
+            </use>
+          </svg>
+        </button>
+        <!-- <nav class="navigation">
           <ul class="navigation-list list-killer">
             <li class="navigation-list__item">
               <a
@@ -65,7 +74,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </header>
     <main>
       <!-- герой -->
@@ -461,7 +470,7 @@
     <footer class="footer">
       <div class="container">
         <div class="adress-div">
-          <a href="" class="logo links"
+          <a href="" class="logo-footer links"
           ><span class="footer__logo-web">Web</span
           ><span class="footer__logo-studio">Studio</span></a
         >
@@ -611,5 +620,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>

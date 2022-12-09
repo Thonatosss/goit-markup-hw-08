@@ -14,7 +14,7 @@
 }
 
 .advantages-list__info, .advantages-list__title, .newsletter-input, .footer-location, .footer-tel,
-.footer-mail, .logo {
+.footer-mail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +68,35 @@ img {
   max-width: 100%;
 }
 
-.logo {
+.menu-button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.menu-button.is-open .icon-close {
+  display: block;
+}
+.menu-button .icon-close {
+  display: none;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-header {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
