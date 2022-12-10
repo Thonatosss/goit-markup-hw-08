@@ -1,5 +1,11 @@
 .logo-footer {
-  @extend %tocenter;
+
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
