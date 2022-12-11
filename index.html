@@ -53,7 +53,9 @@
               >
             </li>
             <li class="mobile-navigation-list__item">
-              <a href="./portfolio.html" class="mobile-navigation-list__link links"
+              <a
+                href="./portfolio.html"
+                class="mobile-navigation-list__link links"
                 >Портфоліо</a
               >
             </li>
@@ -61,7 +63,7 @@
               <a href="" class="mobile-navigation-list__link links">Контакти</a>
             </li>
           </ul>
-          
+
           <a href="tel:+380961111111" class="mobile-phone__link links">
             +38 096 111 11 11
           </a>
@@ -72,21 +74,16 @@
             <ul class="mobile-social__list">
               <li class="mobile-social__item">
                 <a href="" class="mobile-social__link links">Instagram</a>
-
               </li>
               <li class="mobile-social__item">
                 <a href="" class="mobile-social__link links">Twitter</a>
-
               </li>
               <li class="mobile-social__item">
                 <a href="" class="mobile-social__link links">Facebook</a>
-
               </li>
               <li class="mobile-social__item">
                 <a href="" class="mobile-social__link links">Linkedin</a>
-
               </li>
-              
             </ul>
           </div>
         </div>
@@ -258,12 +255,34 @@
           <ul class="our-team-section__list list-killer">
             <li class="our-team-section__item">
               <div class="our-team-section__member">
-                <img
-                  src="./images/OurTeam/img.jpg"
-                  alt="Ігор Дем'яненко Product Designer"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/OurTeam/mob/igor-mob-x1.jpg 1x,
+                      ./images/OurTeam/mob/igor-mob-x2.jpg  2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/tab/igor-tab-x1.jpg 1x,
+                      ./images/OurTeam/tab/igor-tab-x2.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/desk/igor-desk-x1.jpg 1x,
+                      ./images/OurTeam/desk/igor-desk-x2.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/OurTeam/mob/igor-mob-x1.jpg"
+                    alt="Ігор Дем'яненко Product Designer"
+                  />
+                </picture>
+
                 <div class="member">
                   <h3 class="member__name">Ігор Дем'яненко</h3>
                   <p lang="en" class="member__about">Product Designer</p>
@@ -327,12 +346,34 @@
 
             <li class="our-team-section__item">
               <div class="members">
-                <img
-                  src="./images/OurTeam/front.jpg"
-                  alt="Ольга Рєпіна Frontend Developer"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/OurTeam/mob/olga-mob-x1.jpg 1x,
+                      ./images/OurTeam/mob/olga-mob-x2.jpg  2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/tab/olga-tab-x1.jpg 1x,
+                      ./images/OurTeam/tab/olga-tab-x2.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/desk/olga-desk-x1.jpg 1x,
+                      ./images/OurTeam/desk/olga-desk-x2.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/OurTeam/mob/olga-mob-x1.jpg"
+                    alt="Ольга Рєпіна Frontend Developer"
+                  />
+                </picture>
+
                 <div class="member">
                   <h3 class="member__name">Ольга Рєпіна</h3>
                   <p lang="en" class="member__about">Frontend Developer</p>
@@ -396,12 +437,34 @@
 
             <li class="our-team-section__item">
               <div class="members">
-                <img
-                  src="./images/OurTeam/mykola.jpg"
-                  alt="Микола Тарасов Marketing"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/OurTeam/mob/mykola-mob-x1.jpg 1x,
+                      ./images/OurTeam/mob/mykola-mob-x2.jpg  2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/tab/mykola-tab-x1.jpg 1x,
+                      ./images/OurTeam/tab/mykola-tab-x2.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/desk/mykola-desk-x1.jpg 1x,
+                      ./images/OurTeam/desk/mykola-desk-x2.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/OurTeam/mob/mykola-mob-x1.jpg"
+                    alt="Микола Тарасов Marketing"
+                  />
+                </picture>
+
                 <div class="member">
                   <h3 class="member__name">Микола Тарасов</h3>
                   <p lang="en" class="member__about">Marketing</p>
@@ -465,12 +528,34 @@
 
             <li class="our-team-section__item">
               <div class="members">
-                <img
-                  src="./images/OurTeam/misha.jpg"
-                  alt="Михайло Єрмаков UI Designer"
-                  width="270"
-                  height="260"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/OurTeam/mob/misha-mob-x1.jpg 1x,
+                      ./images/OurTeam/mob/misha-mob-x2.jpg  2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/tab/misha-tab-x1.jpg 1x,
+                      ./images/OurTeam/tab/misha-tab-x2.jpg  2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/OurTeam/desk/misha-desk-x1.jpg 1x,
+                      ./images/OurTeam/desk/misha-desk-x2.jpg  2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/OurTeam/mob/misha-mob-x1.jpg"
+                    alt="Михайло Єрмаков UI Designer"
+                  />
+                </picture>
+
                 <div class="member">
                   <h3 class="member__name">Михайло Єрмаков</h3>
                   <p lang="en" class="member__about">UI Designer</p>
@@ -588,74 +673,73 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
-        <!-- <div class="to-tablet"> -->
+        <div class="to-tablet">
+          <div class="adress-div">
+            <a href="" class="logo-footer links"
+              ><span class="footer__logo-web">Web</span
+              ><span class="footer__logo-studio">Studio</span></a
+            >
 
-        <div class="adress-div">
-          <a href="" class="logo-footer links"
-            ><span class="footer__logo-web">Web</span
-            ><span class="footer__logo-studio">Studio</span></a
-          >
+            <address class="footer-adress">
+              <ul class="footer-adress-list list-killer">
+                <li class="footer-adress-space">
+                  <a
+                    class="footer-location links"
+                    href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42664350267667%2C30.543007486861583&z=16"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
 
-          <address class="footer-adress">
-            <ul class="footer-adress-list list-killer">
-              <li class="footer-adress-space">
-                <a
-                  class="footer-location links"
-                  href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42664350267667%2C30.543007486861583&z=16"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
-              </li>
+                <li class="footer-adress-space">
+                  <a class="footer-tel links" href="tel:+380961111111 "
+                    >+38 096 111 11 11
+                  </a>
+                </li>
+                <li class="footer-adress-space">
+                  <a class="footer-mail links" href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="join-div">
+            <h3 class="join-title">Приєднуйтесь</h3>
 
-              <li class="footer-adress-space">
-                <a class="footer-tel links" href="tel:+380961111111 "
-                  >+38 096 111 11 11
+            <ul class="join-soc-list list-killer">
+              <li class="join-list-item">
+                <a class="join-link links" href="">
+                  <svg class="icon-join" width="20px" height="20px">
+                    <use href="./images/Sprite/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="footer-adress-space">
-                <a class="footer-mail links" href="mailto:info@devstudio.com"
-                  >info@devstudio.com
+              <li class="join-list-item">
+                <a class="join-link links" href="">
+                  <svg class="icon-join" width="20px" height="20px">
+                    <use href="./images/Sprite/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-list-item">
+                <a class="join-link links" href="">
+                  <svg class="icon-join" width="20px" height="20px">
+                    <use href="./images/Sprite/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-list-item">
+                <a class="join-link links" href="">
+                  <svg class="icon-join" width="20px" height="20px">
+                    <use href="./images/Sprite/icons.svg#icon-linkedin"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
-        <div class="join-div">
-          <h3 class="join-title">Приєднуйтесь</h3>
-
-          <ul class="join-soc-list list-killer">
-            <li class="join-list-item">
-              <a class="join-link links" href="">
-                <svg class="icon-join" width="20px" height="20px">
-                  <use href="./images/Sprite/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join-list-item">
-              <a class="join-link links" href="">
-                <svg class="icon-join" width="20px" height="20px">
-                  <use href="./images/Sprite/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join-list-item">
-              <a class="join-link links" href="">
-                <svg class="icon-join" width="20px" height="20px">
-                  <use href="./images/Sprite/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="join-list-item">
-              <a class="join-link links" href="">
-                <svg class="icon-join" width="20px" height="20px">
-                  <use href="./images/Sprite/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- </div> -->
 
         <div class="newsletter">
           <label for="email" class="newsletter-label"
