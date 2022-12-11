@@ -11,23 +11,23 @@
 }
 .form-title {
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
 }
 .checkbox {
   display: flex;
 }
 .policy-text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
 
   @include toLevel(flex, center, center);
 
-  margin: 20px 0 30px 0;
+  margin: 20px 0 31px 0;
 
   letter-spacing: 0.03em;
 
@@ -89,6 +89,7 @@
   background-color: #2196f3;
 
   @extend %baseBntStyle;
+  width: 200px;
 
   @include toLevel(flex, center, center);
   
