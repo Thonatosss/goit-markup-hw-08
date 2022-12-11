@@ -1,0 +1,14 @@
+.mobile-social__list {
+  list-style: none;
+  display: flex;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+.mobile-social__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.mobile-social__link {
+  color: #2196f3;
+}
