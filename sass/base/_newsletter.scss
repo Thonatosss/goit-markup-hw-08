@@ -1,7 +1,9 @@
+
 .newsletter-input-btn {
   @media screen and (min-width: 1200px) {
     display: flex;
   }
+  
 }
 .newsletter-label {
   font-weight: 700;
@@ -25,6 +27,11 @@
     flex-direction: column;
     margin-left: auto;
   }
+  // @media screen and (min-width: 768px) {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
 .newsletter-input {
   background-color: #2f303a;
@@ -39,9 +46,10 @@
   @media screen and (min-width: 768px) {
     width: 450px;
     display: flex;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
+
   @media screen and (min-width: 1200px) {
     display: inline-flex;
     width: 358px;
@@ -53,10 +61,12 @@
   @extend %baseBntStyle;
   padding: 10px 28px 10px 28px;
   min-width: 200px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 
   @media screen and (max-width: 1199) {
     margin-top: 30px;
