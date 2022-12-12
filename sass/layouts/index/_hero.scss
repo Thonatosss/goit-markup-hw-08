@@ -34,11 +34,11 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/Portfolio/hero-bg-image-mob.jpg);
+    url(../images/Portfolio/hero-bg-image-mob.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/Portfolio/hero-bg-image-mob-x2.jpg");
+      background-image: url(../images/Portfolio/hero-bg-image-mob-x2.jpg);
     }
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,11 +51,11 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/Portfolio/hero-bg-image-tab.jpg");
+      url(../images/Portfolio/hero-bg-image-tab.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/Portfolio/hero-bg-image-tab-x2.jpg");
+      background-image: url(../images/Portfolio/hero-bg-image-tab-x2.jpg);
     }
   }
   @media screen and(min-width: 1200px) {
@@ -64,12 +64,12 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/Portfolio/hero-bg-image-desk.jpg");
+      url(../images/Portfolio/hero-bg-image-desk.jpg);
 
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("/images/Portfolio/hero-bg-image-desk-x2.jpg");
+      background-image: url(../images/Portfolio/hero-bg-image-desk-x2.jpg);
     }
   }
 }
