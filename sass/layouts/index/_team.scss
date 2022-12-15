@@ -37,6 +37,7 @@
 }
 
 .our-team-section__item {
+ 
   @media screen and (min-width: 768) {
     width: calc((100% - 90px) / 4);
   }
@@ -93,5 +94,11 @@
     @include toLevel(flex, center, null);
     flex-basis: calc((100% - 30px) / 2);
     gap: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
   }
 }

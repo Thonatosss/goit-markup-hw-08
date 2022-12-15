@@ -1,4 +1,8 @@
 .customers__title {
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
   font-size: 36px;
   line-height: 1, 16;
   text-align: center;

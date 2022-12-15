@@ -20,21 +20,16 @@
 .checkbox {
   display: flex;
 }
-.policy-info{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .policy-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
 
-
   justify-content: center;
   align-items: center;
   margin: 20px 0 31px 0;
-
+  display: flex;
   letter-spacing: 0.03em;
 
   color: $secondaryTextColor;
@@ -125,17 +120,19 @@
   }
 }
 
-.policy-text span {
+.policy-icon {
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 8px;
-  @include toLevel(flex, center, center);
+  display: flex;
+  justify-content: center;
+  align-self: center;
 
   fill: transparent;
 }
-.modal-check:checked + .policy-text span {
+.modal-check:checked + .policy-text .policy-icon {
   background-color: #2196f3;
   border: none;
   fill: #ffffff;
@@ -143,7 +140,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-check:focus + .policy-text span {
+.modal-check:focus + .policy-text .policy-icon {
   border-color: #2196f3;
 }
 .checkbox {
