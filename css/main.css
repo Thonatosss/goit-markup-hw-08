@@ -253,6 +253,18 @@ img {
   display: flex;
 }
 
+.policy-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .policy-text {
   font-weight: 400;
   font-size: 12px;
@@ -1202,9 +1214,6 @@ body.modal-open {
 @media screen and (min-width: 768px) and (min-width: 1200px) {
   .advantages-list__item {
     width: calc((100% - 90px) / 4);
-  }
-  .advantages-list__item:not(:last-child) {
-    margin-right: 30px;
   }
 }
 .advantages-list__item .hidden-title {
