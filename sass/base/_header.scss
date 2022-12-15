@@ -1,9 +1,10 @@
 .header {
   border-bottom: 1px solid #ececec;
   position: relative;
-  
+  @media screen and (max-width: 767px) {
+    padding: 16px;
+  }
 }
-
 
 .header-flex {
   display: flex;
@@ -11,7 +12,6 @@
 
   align-items: center;
 }
-
 
 .adress__icon-envelope {
   fill: $secondaryTextColor;
@@ -22,4 +22,3 @@
     fill: $accentColor;
   }
 }
-

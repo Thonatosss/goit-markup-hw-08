@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 30px ;
   }
   @media screen and (min-width: 1200px) {
     @include toLevel(flex, center, null);
@@ -58,12 +59,15 @@
   letter-spacing: 0.03em;
 }
 .advantages-list__item {
+  @media screen and (max-width: 767px) {
+    &:not(:last-child){
+      padding-bottom: 30px;
+    }
+    
+  }
   @media screen and (min-width: 768px) {
     width: calc((100% - 60px) / 2);
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-  }
+
   @media screen and(min-width: 1200px) {
     width: calc((100% - 90px) / 4);
     &:not(:last-child) {
@@ -90,4 +94,5 @@
   display: inline-block;
   @include toLevel(flex, center, center);
   margin-bottom: 30px;
+}
 }
