@@ -1,25 +1,26 @@
-.menu-button{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    border:none;
-   background-color: transparent;
-   &.is-open .icon-menu{
+// .menu-button {
+//   display: inline-block;
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+//   background-color: transparent;
+     
+//   @media screen and(min-width: 768px) {
+//     display: none;
+//   }
+// }
+// .menu-close{
+
+// }
+.btn-style{
     display: block;
-    
-   }
-    & .icon-menu{
-        display: none;
-    }
-    &.is-open .icon-close{
-        display: none;
-    }
-    @media screen and(min-width: 768px) {
+    margin-left: auto;
+    border:none;
+    background-color: transparent;
+}
+.menu-open{
+    @media screen and (min-width: 768px) {
         display: none;
         
     }
-    
-    
-    
 }
-
