@@ -24,7 +24,7 @@
     gap: 30px ;
   }
   @media screen and (min-width: 1200px) {
-    @include toLevel(flex, center, null);
+    @include toLevel(flex, center, flex-start);
   }
 }
 .hidden-title {

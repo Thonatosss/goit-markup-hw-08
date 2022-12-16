@@ -24,11 +24,21 @@
   }
 }
 .filters {
-  @include toLevel(flex, center, null);
-  margin-bottom: 56px;
-}
-.filters-buttons {
-  margin-right: 8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px 8px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    @include toLevel(flex, center, null);
+    margin-bottom: 30px;
+    margin-right: 8px;
+  }
+  @media screen and (min-width: 1200px) {
+    @include toLevel(flex, center, null);
+    margin-bottom: 56px;
+    margin-right: 8px;
+  }
 }
 
 .btn {
