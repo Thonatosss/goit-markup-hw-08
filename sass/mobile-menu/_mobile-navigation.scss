@@ -1,6 +1,11 @@
-
+.mobile-navigation-list__item .studio{
+  color: $accentColor;
+}
+.mobile-navigation-list__item .portfolio{
+  color: $accentColor;
+}
   
-  .mobile-navigation-list__item .mobile-navigation-list__link {
+  .mobile-navigation-list__link {
     position: relative;
     color: $primaryTextColor;
     font-weight: 500;
